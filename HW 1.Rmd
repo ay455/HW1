@@ -1,0 +1,31 @@
+The age distribution boxplot shows how employee ages vary, with outliers meaning some are much older or younger. The job satisfaction boxplot shows how happy employees are, with a high middle line meaning most are satisfied and a wide spread showing mixed opinions. The job characteristics boxplot shows how employees rate their job, with a small box meaning similar views and outliers meaning big differences. The years worked boxplot shows how long employees have been with the company. A wide box means a mix of new and experienced employees, while outliers show extreme cases. The gender barplot shows the number of male and female employees, with unequal bars meaning one gender is more common. The promotion barplot shows how many employees think they will get promoted, with high values meaning they see growth and low values meaning they don’t. The decision-making barplot shows if employees feel involved in company choices, with high values meaning they do and low values meaning they don’t. The budget decision barplot shows how many employees help with financial decisions, with most low values meaning they don’t have a say. The pride in organization barplot shows if employees feel proud to work there, with high values meaning strong company loyalty and low values meaning they don’t. The job change for more pay barplot shows if employees would leave for better pay, with high values meaning they would and low values meaning salary isn’t their main concern. The workplace relations barplot shows how well employees get along, with high values meaning a friendly workplace and low values meaning possible conflict.
+
+---
+title: "Employee Survey Analysis"
+output: html_document
+date: "2025-02-08"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
